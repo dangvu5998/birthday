@@ -1,7 +1,7 @@
 function type(output, lines, idx_l = 0, idx_c = 0) {
   var $output = $(output);
   $output.addClass('typing');
-  let rand = 40 + Math.round(Math.random()*100);
+  let rand = 30 + Math.round(Math.random()*140);
   if(lines[idx_l] === undefined) {
     $output.removeClass('typing');
     return;
